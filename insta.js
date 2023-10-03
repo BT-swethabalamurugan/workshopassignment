@@ -168,7 +168,7 @@ app.put('/posts/:id/like', async (req, res) => {
 
 app.listen(3000,() => {
     console.log('Server started on port 3000');
-    mongoose.connect("mongodb+srv://SubhasriM004:milky@04.jz2h5cd.mongodb.net/").then(() => {
+    mongoose.connect("mongodb+srv://BT-swethabalamurugan:suruthibala@11.jz2h5cd.mongodb.net/").then(() => {
         console.log("Connected to the database");
     });
 });
